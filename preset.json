@@ -1,90 +1,11 @@
 {
   "useTaobaoRegistry": true,
-  "latestVersion": "4.5.6",
-  "lastChecked": 1601198999257,
   "packageManager": "npm",
-  "presets": {
-    "ts": {
-      "useConfigFiles": false,
-      "plugins": {
-        "@vue/cli-plugin-babel": {},
-        "@vue/cli-plugin-typescript": {
-          "classComponent": true,
-          "tsLint": true,
-          "lintOn": [
-            "save"
-          ],
-          "useTsWithBabel": true
-        }
-      },
-      "router": true,
-      "routerHistoryMode": false,
-      "vuex": true,
-      "cssPreprocessor": "dart-sass"
-    },
-    "fast": {
-      "useConfigFiles": true,
-      "plugins": {
-        "@vue/cli-plugin-babel": {},
-        "@vue/cli-plugin-router": {
-          "historyMode": false
-        },
-        "@vue/cli-plugin-vuex": {},
-        "@vue/cli-plugin-eslint": {
-          "config": "base",
-          "lintOn": [
-            "save"
-          ]
-        }
-      },
-      "cssPreprocessor": "dart-sass"
-    },
-    "modules": {
-      "useConfigFiles": true,
-      "plugins": {
-        "@vue/cli-plugin-babel": {},
-        "@vue/cli-plugin-eslint": {
-          "config": "base",
-          "lintOn": [
-            "save"
-          ]
-        }
-      },
-      "cssPreprocessor": "dart-sass"
-    },
-    "module-ts": {
-      "useConfigFiles": true,
-      "plugins": {
-        "@vue/cli-plugin-babel": {},
-        "@vue/cli-plugin-typescript": {
-          "classComponent": true,
-          "useTsWithBabel": true
-        },
-        "@vue/cli-plugin-eslint": {
-          "config": "base",
-          "lintOn": [
-            "save"
-          ]
-        }
-      },
-      "cssPreprocessor": "dart-sass"
-    },
-    "template": {
-      "useConfigFiles": true,
-      "plugins": {
-        "@vue/cli-plugin-babel": {},
-        "@vue/cli-plugin-router": {
-          "historyMode": true
-        },
-        "@vue/cli-plugin-vuex": {},
-        "@vue/cli-plugin-eslint": {
-          "config": "base",
-          "lintOn": [
-            "save"
-          ]
-        }
-      },
-      "cssPreprocessor": "dart-sass"
-    }
+  "cssPreprocessor": "scss",
+  "router": true,
+  "vuex": true,
+  "routerHistoryMode": true,
+  "plugins": {
+    "@vue/cli-plugin-babel": {}
   }
 }
