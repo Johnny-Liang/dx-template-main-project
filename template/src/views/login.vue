@@ -9,7 +9,7 @@
           :form="form"
           class="login-form"
           @submit="handleSubmit">
-          <FormItem>
+          <a-form-item>
             <Input
               size="large"
               v-decorator="[
@@ -20,8 +20,8 @@
               class="port-input">
               <Icon slot="prefix" type="user" style="color: rgba(0,0,0,.25);font-size:18px" />
             </Input>
-          </FormItem>
-          <FormItem>
+          </a-form-item>
+          <a-form-item>
             <Input
               size="large"
               v-decorator="[
@@ -33,8 +33,8 @@
               class="port-input password">
               <Icon slot="prefix" type="lock" style="color: rgba(0,0,0,.25);font-size:18px" />
             </Input>
-          </FormItem>
-          <FormItem>
+          </a-form-item>
+          <a-form-item>
             <Button
               block
               type="primary"
@@ -56,7 +56,7 @@
                 忘记账号或密码？
               </Popover>
             </div>
-          </FormItem>
+          </a-form-item>
         </a-form>
       </div>
     </div>
