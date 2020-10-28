@@ -1,11 +1,10 @@
-// const moduleConf = require('./module_cache/module.conf').default
 const path = require('path')
 const modules = require('./modules').default
 const package = require('./package')
 module.exports = {
   publicPath: process.env.BASE_URL,
   lintOnSave: false,
-  transpileDependencies: process.env.SERVE_TARGET !== 'main' ? [] : [/dh-\w+/],
+  transpileDependencies: process.env.NODE_ENV === 'development' ? [] : [/dh-\w+/],
   productionSourceMap: false,
   chainWebpack: config => {
     config.output.filename('[name].[hash].js').end()
@@ -18,13 +17,15 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        'root': path.join(__dirname, '../'),
+        '@': path.resolve(__dirname, './src'),
+        'subp': path.resolve(__dirname, '../../src'),
         ...Object.keys(modules).reduce((acc, name) => {
-          acc[name + '/src'] = process.env.SERVE_TARGET !== 'main' ? path.resolve(__dirname, '../../src') : path.resolve(__dirname, `./node_modules/${name}/src`)
+          acc[name + '/src'] = process.env.NODE_ENV === 'development' ? path.resolve(__dirname, '../../src') : path.resolve(__dirname, `./node_modules/${name}/src`)
           return acc
         }, {}),
         'vue$': path.resolve(__dirname, './node_modules/vue/dist/vue.runtime.esm.js')
       }
+      // alias: process.env.NODE_ENV === 'development' ? moduleConf : {}
     }
   },
   css: {

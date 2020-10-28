@@ -1,19 +1,20 @@
 {
-  "name": "dx-template-main-project",
-  "version": "1.0.0",
-  "description": "主项目模板",
-  "main": "index.js",
+  "name": "vue-preset-template",
+  "version": "0.1.0",
+  "description": "Dead simple Vue preset template for learning use.",
+  "main": "prompts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Johnny-Liang/dx-template-main-project.git"
+    "url": "git+https://github.com/savokiss/vue-preset-template.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Johnny-Liang/dx-template-main-project/issues"
+    "url": "https://github.com/savokiss/vue-preset-template/issues"
   },
-  "homepage": "https://github.com/Johnny-Liang/dx-template-main-project#readme"
+  "homepage": "https://github.com/savokiss/vue-preset-template#readme"
 }

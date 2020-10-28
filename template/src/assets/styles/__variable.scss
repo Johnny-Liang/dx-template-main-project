@@ -1,0 +1,63 @@
+@import './antd_theme';
+@import '../iconfont/iconfont.scss';
+$themeColor: #355DB4; // 亮色主题字体颜色
+$themeColor-dark: #fff; // 暗黑主题字体颜色
+$bgColor-dark: #001529; // 暗黑主题背景主颜色
+$menuWidth: 256px;
+// 大屏
+$bs_color_bg: #040811; // 大屏背景色
+$bs_bd_line: #063DB2; // 大屏内容分割线
+$bs_color_theme: #006AFF;
+$bs_color_label: #B4B5B8;
+$tstion_time: 200ms; // 默认过渡动画时间
+#nprogress .bar { // 加载进度条颜色
+  background: $themeColor !important; 
+}
+.DARK_NIGHT {
+  &::before {
+    content: '';
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba($color: #000000, $alpha: .25);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 8s;
+  }
+  &.DARK_NIGHT_H::before {
+    opacity: 1;
+  }
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+p {
+  margin: 0;
+  margin-bottom: 0 !important;
+}
+a {
+  text-decoration: none;
+}
+.block_wrap {
+  margin: 8px;
+  padding: 16px;
+  background: #fff;
+  border-radius: 4px;
+}
+@mixin position_c ($width, $height, $top: 0, $right: 0, $bottom: 0, $left: 0) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+  margin: auto;
+  width: $width;
+  height: $height;
+}

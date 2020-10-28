@@ -1,11 +1,18 @@
 {
-  "useTaobaoRegistry": true,
   "packageManager": "npm",
-  "cssPreprocessor": "scss",
+  "useConfigFiles": true,
   "router": true,
   "vuex": true,
-  "routerHistoryMode": true,
+  "cssPreprocessor": "sass",
   "plugins": {
-    "@vue/cli-plugin-babel": {}
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-typescript": {}
+  },
+  "configs": {
+    "eslintConfig": {
+      "rules": {
+        "no-alert": 0
+      }
+    }
   }
 }

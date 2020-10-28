@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="56px" viewBox="0 0 45 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#225BFF" offset="0%"></stop>
+            <stop stop-color="#1C28FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="高炉内衬侵蚀&amp;冷却壁水温监控-告警" transform="translate(-1768.000000, -17.000000)" fill="url(#linearGradient-1)">
+            <g id="炉号" transform="translate(1768.000000, 17.000000)">
+                <polygon id="Mask" points="6.34042553 0 38.6595745 0 45 40.4286587 38.6595745 56 6.34042553 56 2.27359798e-13 40.4286587"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

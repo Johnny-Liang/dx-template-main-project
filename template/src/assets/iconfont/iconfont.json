@@ -1,0 +1,100 @@
+{
+  "id": "1573324",
+  "name": "管理平台",
+  "font_family": "font_family",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14388293",
+      "name": "Inspectionsystem",
+      "font_class": "Inspectionsystem",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "12951928",
+      "name": "succeed",
+      "font_class": "succeed",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "12439614",
+      "name": "logo",
+      "font_class": "logo",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "12439615",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "12439616",
+      "name": "quit",
+      "font_class": "quit",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "12439617",
+      "name": "logo2",
+      "font_class": "logo1",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "12437849",
+      "name": "Big Data System",
+      "font_class": "BigDataSystem",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "12437850",
+      "name": "Business management system",
+      "font_class": "Businessmanagementsystem",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "12437851",
+      "name": "Energy system",
+      "font_class": "Energysystem",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "12437852",
+      "name": "Production system",
+      "font_class": "Productionsystem",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "12437853",
+      "name": "Environmental system",
+      "font_class": "Environmentalsystem",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "12437854",
+      "name": "Security system",
+      "font_class": "Securitysystem",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "12437855",
+      "name": "Visually large screen",
+      "font_class": "Visuallylargescreen",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    }
+  ]
+}

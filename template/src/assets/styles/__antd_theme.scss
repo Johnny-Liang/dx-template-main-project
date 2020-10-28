@@ -1,0 +1,57 @@
+$table-border-color: #dbdbdb;
+.ant-btn > i, .ant-btn > span {
+  line-height: 21px;
+}
+// 作用于高炉内衬与冷却壁的日期范围选择筛选器
+.ant-calendar-range-picker-input,
+.ant-calendar-range-picker-separator {
+  cursor: pointer;
+  transform: translateX(-20px);
+}
+.ant-calendar-picker {
+  cursor: pointer;
+  .ant-calendar-picker-input {
+    cursor: pointer;
+  }
+}
+
+.ant-table-body,
+.ant-table-body-inner {
+  margin: 0!important;
+}
+.DTable {
+  .ant-table-fixed-left {
+    overflow-x: scroll;
+    pointer-events: none;
+    &::-webkit-scrollbar {
+      opacity: 0;
+    }
+    bottom: 0;
+    .ant-table-body-outer .ant-table-fixed {
+      margin-bottom: 7px;
+      pointer-events: all;
+    }
+    .ant-table-body-inner::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+  .ant-table-scroll .ant-table-body::-webkit-scrollbar {
+  }
+}
+.ant-table-wrapper {
+  table {
+    .ant-table-thead {
+      th {
+        background-color: rgb(243, 243, 243)!important;
+        font-weight: bold!important;
+      }
+    }
+  }
+}
+.ant-table-bordered,
+.ant-table-bordered .ant-table-content,
+.ant-table-bordered .ant-table-thead > tr > th,
+.ant-table-bordered .ant-table-tbody > tr > td,
+.ant-table-bordered .ant-table-fixed-right {
+  border-color: $table-border-color!important;
+}
